@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+	<TextView  android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="\n   NXTDriver 1.0 - Config Mode / Motors-Sensors\n\n"  android:orientation="vertical" />
+	
+<LinearLayout android:id="@+id/linearLayout1" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/connect" android:id="@+id/connect_button"></Button>
+    <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/disconnect_button" android:text="@string/discon"></Button>
+	<TextView android:textSize="26sp" android:layout_gravity="center_vertical" android:text="State" android:layout_width="wrap_content" android:id="@+id/state_display" android:layout_height="wrap_content"></TextView>
+    
+</LinearLayout>
+<LinearLayout android:id="@+id/linearLayout2" android:layout_width="match_parent" android:layout_height="100sp" >
+	
+	<SeekBar android:layout_height="wrap_content"
+			android:layout_width="fill_parent" android:id="@+id/power_seekbar"
+			android:max="100" android:layout_marginLeft="10dp"
+			android:layout_marginRight="10dp" android:layout_gravity="center_vertical"></SeekBar>
+			
+</LinearLayout>
+<LinearLayout android:id="@+id/linearLayout3" android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="vertical">
+
+
+
+   <LinearLayout android:id="@+id/linearLayout3" android:layout_weight="1" android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="vertical">
+   		<LinearLayout android:id="@+id/linearLayout66" android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="horizontal">
+   			<ImageView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/imageView2" android:src="@drawable/motor"></ImageView>
+   			<CheckBox android:text="Motors          " android:id="@+id/motorBox" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+   			<TextView android:id="@+id/orienta_text" android:layout_width="fill_parent"  android:layout_height="wrap_content" android:text="Orienta:" />
+   		</LinearLayout>
+   		<LinearLayout android:id="@+id/linearLayout66" android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="horizontal">
+			<ImageView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/imageView3" android:src="@drawable/us"></ImageView>	
+			<CheckBox android:text="Ultrasonic     " android:id="@+id/distBox" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+   			<TextView android:text="Distance:" android:id="@+id/us_text" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+      </LinearLayout>
+   		<LinearLayout android:id="@+id/linearLayout56" android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="horizontal">
+   			<ImageView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/imageView1" android:src="@drawable/compass"></ImageView>
+   		   	<CheckBox android:text="Compass       " android:id="@+id/compassBox" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+   		   	<TextView android:text="Degrees:    " android:id="@+id/deg_text" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+		</LinearLayout>
+		<LinearLayout android:id="@+id/linearLayout5612" android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="horizontal">
+   			<ImageView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/imageView1" android:src="@drawable/light"></ImageView>
+   		   	<CheckBox android:text="Light               " android:id="@+id/lightBox" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+   		   	<TextView android:text="Ligth:" android:id="@+id/light_text" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+		</LinearLayout>
+		   	<LinearLayout android:id="@+id/linearLayout32" android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="horizontal">
+		   		<ImageView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/imageView6" android:src="@drawable/cali"></ImageView>
+		   		<CheckBox android:text="Calibrate Compass" android:id="@+id/caliBox" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>	
+<!--				<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Calibrate Compass" android:id="@+id/cali_button"></Button>-->
+<!--			<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Proba" android:id="@+id/proba_button"></Button>-->
+			</LinearLayout>
+<!--			<TextView  android:layout_gravity="center_horizontal" android:textSize="26sp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/hello" />-->
+   </LinearLayout>
+</LinearLayout>
+</LinearLayout>
