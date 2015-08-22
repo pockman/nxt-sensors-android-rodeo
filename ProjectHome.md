@@ -1,0 +1,3 @@
+The main goal of this Project was the development of a program with which we could connect with the robot, through Bluetooth and make it move according to the movements of the mobile phone, using the built-in accelerometer. At this point, the robot should be able to analyze its surroundings’ and using an ultrasonic sensor in order to detect obstacles on the path. The robot performs a scan similarly like a detection radar, to “view” the obstacles.
+
+Once it has detected the obstacles and presented them to the User, the latter should be able to move the robot by looking only at the screen, checking the environment, and choosing which of the paths would be the most suitable, in order to avoid the obstacles.
